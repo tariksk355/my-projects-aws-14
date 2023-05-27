@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: |
+  
+  
+
+  
+Resources:
+  Type: AWS::EC2::SecurityGroup
+  Properties: 
+  GroupDescription: String
+  GroupName: String
+  SecurityGroupEgress: 
+    - Egress
+  SecurityGroupIngress: 
+    - Ingress
+  Tags: 
+    - Tag
+  VpcId: String
+
+
+
+
+
+  Type: AWS::EC2::Instance
+  Properties: 
+  
+  ImageId: String
+  InstanceType: String
+  
+  KeyName: String
+  
+ 
+  SecurityGroups: 
+    - String
+  
+  Tags: 
+    - Tag
+ 
+  UserData: String
+ 
