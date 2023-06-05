@@ -60,7 +60,7 @@ def admin():
 # and assign to the route of ('/greet-admin')
 @app.route('/greet-admin')
 def greet_admin():
-    return redirect(url_for('greet', name='Master Admin!!!!'))
+    return redirect(url_for('greet', name='Tarik!!!!'))
 
 
 
@@ -94,5 +94,5 @@ def evens():
 
 # Add a statement to run the Flask application which can be reached from any host on port 80.
 if __name__== "__main__":
-    #app.run(debug=True)
-    app.run(host='0.0.0.0', port=80)
+    app.run(debug=True)
+    # app.run(host='0.0.0.0', port=80)
