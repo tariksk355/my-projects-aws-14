@@ -66,7 +66,7 @@ Resources:
             OriginProtocolPolicy: http-only
         PriceClass: PriceClass_All
         ViewerCertificate:
-          AcmCertificateArn: arn:aws:acm:us-east-1:150257709090:certificate/f251aec7-XXXXXXXXXXXXXXXXXX
+          AcmCertificateArn: arn:aws:acm:us-east-1:150257709090:certificate/XXXXXXXXXXXXXXXXX
           SslSupportMethod: sni-only
 
   MyRecordName:
@@ -78,7 +78,7 @@ Resources:
           Type: A
           AliasTarget:
             DNSName: !GetAtt MyCloudfront.DomainName
-            HostedZoneId: Z0212423TBOUBILVANP3
+            HostedZoneId: Z2FDTNDATAQYW2
 
 
 Outputs:
